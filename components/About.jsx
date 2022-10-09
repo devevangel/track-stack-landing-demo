@@ -4,8 +4,8 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <section className="w-full h-fit flex flex-col items-center">
-      <div className="font-russo text-4xl mb-5">About Us</div>
+    <section className="w-full px-16 h-fit flex flex-col items-center mt-10 space-y-6">
+      <div className="font-russo text-4xl">About Us</div>
       <div className="font-work text-sm w-1/2 text-center">
         Track Stack aims to build an all-inclusive audio NFT platform that
         focuses on granting artists full autonomy over their work, as well as
@@ -15,7 +15,7 @@ const About = () => {
         snippets will allow our users to turn a profit by listening to their
         favorite musicians and creators.
       </div>
-      <div className="font-work font-black mt-5">One For All</div>
+      <div className="font-work font-black">One For All</div>
       <Button text={"Join Waitlist"} styles={"font-bold"} />
     </section>
   );

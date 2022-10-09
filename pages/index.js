@@ -10,7 +10,7 @@ const Home = () => {
   const [mode, setMode] = useState("light");
 
   return (
-    <div className="h-screen">
+    <div>
       <NavBar mode={mode} setMode={setMode} />
       <Intro />
       <Question />
