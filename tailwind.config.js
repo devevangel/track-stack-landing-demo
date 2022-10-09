@@ -18,6 +18,16 @@ module.exports = {
         "gradient-mid": "#D83D3D",
         "gradient-end": "#D8A33D",
       },
+      width: {
+        100: "30rem",
+      },
+      height: {
+        100: "30rem",
+        200: "100rem",
+      },
+      borderWidth: {
+        3: "3px",
+      },
     },
   },
   plugins: [],
